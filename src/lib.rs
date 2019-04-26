@@ -3,7 +3,7 @@
 //!
 //! ## Example
 //! ```no_run, rust, ignore
-//! #![feature(futures_api, async_await, await_macro, existential_type)]
+//! #![feature(async_await, await_macro, existential_type)]
 //!
 //! use futures::{
 //!     future::{self, FutureObj},
@@ -57,7 +57,7 @@
 #![deny(missing_debug_implementations, nonstandard_style)]
 #![warn(missing_docs, missing_doc_code_examples)]
 #![cfg_attr(test, deny(warnings))]
-#![feature(futures_api, async_await, await_macro, arbitrary_self_types)]
+#![feature(async_await, await_macro, arbitrary_self_types)]
 
 use bytes::Bytes;
 use futures::{
